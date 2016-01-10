@@ -73,9 +73,6 @@
     "url": "https://github.com/davidmarkclements/spacey-standard.git"
   },
   "scripts": {
-    "test": "standard && tape test/*.js"
-  },
-  "standard": {
-    "ignore": "tmp/**"
+    "test": "tape test/*.js"
   }
 }
