@@ -1,0 +1,81 @@
+{
+  "name": "spacey-standard",
+  "description": "Like standard, but loosen up on the spacing",
+  "version": "1.0.0",
+  "author": {
+    "email": "david.clements@nearform.com",
+    "name": "David Mark Clements",
+    "url": "http://twitter.com/davidmarkclements"
+  },
+  "bin": {
+    "spacey-standard": "./bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/spacey-standard/issues"
+  },
+  "dependencies": {
+    "defaults": "^1.0.2",
+    "eslint": "^1.0.0",
+    "eslint-config-spacey-standard": "^1.0.0",
+    "eslint-config-standard": "^4.0.0",
+    "eslint-config-standard-react": "^1.0.0",
+    "eslint-plugin-react": "^3.9.0",
+    "eslint-plugin-standard": "^1.1.0",
+    "get-stdin": "^5.0.1",
+    "minimist": "^1.1.1",
+    "standard-format": "^2.1.0",
+    "standard-engine": "^2.0.4"
+  },
+  "devDependencies": {
+    "fixpack": "^2.2.0",
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.3.4",
+    "run-series": "^1.1.1",
+    "standard": "*",
+    "tape": "^4.0.0",
+    "xtend": "^4.0.0"
+  },
+  "homepage": "https://github.com/davidmarkclements/spacey-standard",
+  "keywords": [
+    "JavaScript Standard Style",
+    "JavaScript Spacey Standard Style",
+    "bikeshed",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "semicolon",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmarkclements/spacey-standard.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "standard": {
+    "ignore": "tmp/**"
+  }
+}

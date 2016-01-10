@@ -1,0 +1,3 @@
+{
+   "extends": ["spacey-standard", "standard-react"]
+}
