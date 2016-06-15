@@ -1,9 +1,11 @@
 var path = require('path')
+var eslint = require('eslint')
 var pkg = require('./package.json')
 
 module.exports = {
   // cmd, homepage, bugs all pulled from package.json
   cmd: 'spacey-standard',
+  eslint: eslint,
   version: pkg.version,
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
