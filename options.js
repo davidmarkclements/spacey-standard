@@ -12,7 +12,8 @@ module.exports = {
   tagline: 'Loosen up on the spacing',
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.json')
-  },
-  formatter: require('standard-format'),
-  formatterName: 'standard-format'
+  }
+  ,
+  formatter: require('standard'),
+  formatterName: 'standard'
 }
